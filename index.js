@@ -28,15 +28,15 @@ app.start = async () => {
 
   server.listen(port);
 };
-//closing db connections on app end
-process.on("SIGKILL", () => {
-  db.end();
-});
+// //closing db connections on app end
+// process.on("SIGKILL", () => {
+//   db.end();
+// });
 
-//closing db connections on app end
-process.on("SIGKILL", () => {
-  db.end();
-});
+// //closing db connections on app end
+// process.on("SIGKILL", () => {
+//   db.end();
+// });
 
 //to handle uncaught exception
 process.on("uncaughtException", err => {
