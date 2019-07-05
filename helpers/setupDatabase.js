@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 var conString = process.env.DATABASE_URL;
 
 var db = new pg.Client(conString);
-client.connect();
+db.connect();
 
 //setup dotenv
 dotenv.config();
