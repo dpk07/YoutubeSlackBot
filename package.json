@@ -1,0 +1,35 @@
+{
+  "name": "youtubeslackbot",
+  "version": "1.0.0",
+  "description": "a slack bot that will deliver the trending videos from youtube and also deliver videos based on user interests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpk07/YoutubeSlackBot.git"
+  },
+  "author": "Deepak Pai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpk07/YoutubeSlackBot/issues"
+  },
+  "homepage": "https://github.com/dpk07/YoutubeSlackBot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.1.0",
+    "country-data": "0.0.31",
+    "cron": "^1.7.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.0",
+    "express-session": "^1.16.2",
+    "morgan": "^1.9.1",
+    "pg": "^7.11.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "tracer": "^0.9.8"
+  }
+}
