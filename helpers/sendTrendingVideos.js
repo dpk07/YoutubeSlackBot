@@ -49,7 +49,7 @@ async function pushTrendingVideos() {
     //options for making the post call to the webhook
     let slackOptions = {
       uri:
-        "https://hooks.slack.com/services/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",
+        "https://hooks.slack.com/services/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",
       method: "POST",
       headers: {
         "User-Agent": "Request-Promise",
