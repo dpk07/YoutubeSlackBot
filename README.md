@@ -6,8 +6,6 @@ To run the project on your local machine,
 * Update postgres url in helpers/setupDatabase.js
 * run npm start
 
-# Url
-https://youtube-slack-bot-new.herokuapp.com
 
 # Commands
 * /trending [Country name] Gets the top 25 trending videos in the specified country[Defaulted to India]
